@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:text="@string/my_skills"
+        android:textColor="@color/black"
+        android:textSize="22sp"/>
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="2dp"
+
+        >
+
+    <TableRow>
+
+        <TextView
+            android:layout_column="1"
+            android:text="•" />
+
+        <TextView
+            android:layout_column="2"
+            android:layout_width="wrap_content"
+            android:text="gaming " /> </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:text="•" />
+
+            <TextView
+                android:layout_column="2"
+                android:layout_width="wrap_content"
+                android:text="creative writting" /> </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:text="•" />
+
+            <TextView
+                android:layout_column="2"
+                android:layout_width="wrap_content"
+                android:text="project archtecture" /> </TableRow>
+        <TableRow>
+
+
+            <TextView
+                android:layout_column="1"
+                android:text="•" />
+
+            <TextView
+                android:layout_column="2"
+                android:layout_width="wrap_content"
+                android:text="sports activities" /> </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:text="•" />
+
+            <TextView
+                android:layout_column="2"
+                android:layout_width="wrap_content"
+                android:text="code writting" /> </TableRow>
+
+    </TableLayout>
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="181dp"-->
+<!--        android:layout_column="1"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:gravity="center"-->
+<!--        android:text="@string/code_writting_creative_writtings_sports_activities_video_gamming_exercise"-->
+<!--        android:textColor="#2196F3"-->
+<!--        android:textSize="22dp"-->
+<!--        android:textStyle="bold"-->
+<!--        />-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:text="@string/my_skills"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="22dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginRight="33dp"
+        android:layout_marginLeft="32dp">
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:text="•" />
+
+            <TextView
+                android:layout_column="2"
+                android:layout_width="wrap_content"
+                android:text="problem solving " /> </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:text="•" />
+
+            <TextView
+                android:layout_column="2"
+                android:layout_width="wrap_content"
+                android:text="time managemnet" /> </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:text="•" />
+
+            <TextView
+                android:layout_column="2"
+                android:layout_width="wrap_content"
+                android:text="organizatio skills " /> </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:text="•" />
+
+            <TextView
+                android:layout_column="2"
+                android:layout_width="wrap_content"
+                android:text="leadership skills " /> </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:text="•" />
+
+            <TextView
+                android:layout_column="2"
+                android:layout_width="wrap_content"
+                android:text="communication skills" /> </TableRow>
+
+
+    </TableLayout>
+
+
+<!--    <TextView-->
+<!--        android:layout_width="396dp"-->
+<!--        android:layout_height="139dp"-->
+<!--        android:text="@string/communication_skills_computer_skills_people_skills_leadership_skills_organizational_skills_time_management_skills_collaboration_skills_problem_solving_skills"-->
+<!--        android:textAlignment="gravity"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textDirection="anyRtl"-->
+<!--        android:textSize="15sp"-->
+<!--        android:textStyle="italic" />-->
+
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">FredPortfolio</string>
+    <string name="communication_skills_computer_skills_people_skills_leadership_skills_organizational_skills_time_management_skills_collaboration_skills_problem_solving_skills">Communication skills. Computer skills. People skills. Leadership skills. Organizational skills. Time management skills. Collaboration skills. Problem-solving skills.</string>
+    <string name="code_writting_creative_writtings_sports_activities_video_gamming_exercise">code writting, creative writtings,sports activities video gamming,exercise,</string>
+    <string name="click">click</string>
+    <string name="toast_a_message">toast a message</string>
+    <string name="fred_fred">fred fred</string>
+    <string name="navigation_drawer_open">navigation_drawer_open</string>
+    <string name="navigation_drawer_close">navigation_drawer_close</string>
+    <string name="my_skills">my skills</string>
+    <string name="about">about</string>
+    <string name="contact_us">contact us</string>
+    <string name="homepage">homepage</string>
+    <string name="portfolio">portfolio</string>
+    <string name="chuke_fred">Chuke fred</string>
+</resources>
